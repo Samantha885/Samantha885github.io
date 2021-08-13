@@ -1,0 +1,154 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #ffe8d6; 
+ color: rgb(151, 131, 118); 
+}
+
+/* STYLE TEXT */
+
+.about {
+  text-align: center;
+}
+
+.about2 {
+  text-align: center;
+}
+
+.about3 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.transcript {
+  text-align: center;
+}
+
+.takeAction {
+  text-align: center;
+}
+
+.takeAction2 {
+  text-align: center;
+}
+
+.takeAction3 {
+  text-align: center;
+}
+
+.takeActionvid {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+/* STYLE IMAGES */
+.container {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  top: 50px;
+  left: 16px;
+  font-size: 65px;
+}
+.topleft2 {
+  position: absolute;
+  top: 300px; 
+  left: 16px;
+  font-size: 30px;
+  right: 70;
+}
+
+.intro { 
+  width: 100%;
+  height: 600px;
+  opacity: 0.3;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.resources {
+  text-align: center;
+  font-size: 24px;
+}
+
+.resources li {
+  text-align: center;
+}
+/* margin-bottom: 15px; */
+.link {
+  font-size: 18px;
+  color: #a5a58d;
+  text-decoration: none;
+}
+.apple {
+  font-size: 20px;
+}
+/* STYLE NAV BAR */
+
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DDBEA9;
+}
+
+.navLi {
+  float: right;
+}
+
+.navLi a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* STYLE BUTTONS */
+.button {
+  background-color: #CB997E; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+.button1 {
+  background: #ddbea9;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color: whitesmoke;
+}
+/* ADD MORE! */
